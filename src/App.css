@@ -1,38 +1,113 @@
-.App {
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.circulam-bg{
+  background-color: rgb(242, 242, 242);
+}
+.review-bg{
+  background-color: rgb(242, 242, 242);
+
+}
+.cir-head{
   text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-top: 2rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.p1{
+  color:orange;
+  padding-top: 1.35rem ;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.p2{
+  color: blue;
+  font-weight: 600;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 0.8rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.p3{
+  position: relative;
+  bottom: 1rem;
+  
+}
+.p4{
+  position: relative;
+  bottom: 0.5rem;
+}
+.p5{
+  position: relative;
+  bottom: 1rem;
+  font-size: 1rem;
+}
+.p6{
+  position: relative;
+  bottom: 1.5rem;
+}
+.p7{
+  position: relative;
+  bottom: 2rem;
+}
+.p8{
+  position: relative;
+  bottom: 2.8rem;
+}
+.box1{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.boxbg{
+  background-color: rgb(249, 242, 232);
+}
+.circulum-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.p9{
+  position: relative;
+  bottom: 1.5rem;
+}
+.p10{
+  position: relative;
+  bottom: 2.2rem;
+}
+.mentor-block{
+  margin-top: 3rem;
+}
+.mentor{
+  width: 18rem;
+}
+.mentor-p1{
+  position: relative;
+  bottom: 0.9rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.review1{
+  width: 10rem;
+}
+.review-person{
+  position: relative;
+  top: 1rem;
+}
+.review-person1{
+  position: relative;
+  bottom: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen  and (max-width:810px){
+  .person-img{
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .circulum-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .review1{
+    width: 6rem;
+    padding: 5rem 0;
   }
 }
