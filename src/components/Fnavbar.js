@@ -6,8 +6,8 @@ import { FaSignOutAlt } from "react-icons/fa";
 const Fnavbar = () => {
   return (
     <div>
-      <nav className="navbar  navbar-expand-md bg-body-tertiary ">
-        <div className="container-fluid ">
+      <nav className="navbar  navbar-expand-md ">
+        <div className="container-fluid navcolor  ">
           <a className="navbar-brand" href="#">
           <img src={logo} alt="logo" style={{width:100}}  id="logo" />
           </a>
@@ -23,7 +23,7 @@ const Fnavbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className="collapse navbar-collapse d-flex justify-content-center  justify-content-md-end "
+            className="collapse navbar-collapse   justify-content-md-end "
             id="navbarNav"
           >
             <ul className="navbar-nav fw-bold ">

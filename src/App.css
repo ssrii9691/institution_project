@@ -1,9 +1,80 @@
-#logo{
-  opacity: 0.9;
+
+.circulam-bg{
+  background-color: rgb(242, 242, 242);
 }
-#logo:hover{
-  opacity: 1;
+.cir-head{
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-top: 2rem;
 }
-#span-color{
+.p1{
+  color:orange;
+  padding-top: 1.35rem ;
+}
+.p2{
   color: blue;
+  font-weight: 600;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 0.8rem;
+}
+.p3{
+  position: relative;
+  bottom: 1rem;
+  
+}
+.p4{
+  position: relative;
+  bottom: 0.5rem;
+}
+.p5{
+  position: relative;
+  bottom: 1rem;
+  font-size: 1rem;
+}
+.p6{
+  position: relative;
+  bottom: 1.5rem;
+}
+.p7{
+  position: relative;
+  bottom: 2rem;
+}
+.p8{
+  position: relative;
+  bottom: 2.8rem;
+}
+.box1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boxbg{
+  background-color: rgb(249, 242, 232);
+}
+.circulum-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.p9{
+  position: relative;
+  bottom: 1.5rem;
+}
+.p10{
+  position: relative;
+  bottom: 2.2rem;
+}
+
+
+@media screen  and (max-width:810px){
+  .person-img{
+    display: none;
+  }
+  .circulum-box{
+    display: flex;
+    flex-direction: column;
+  }
 }
