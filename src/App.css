@@ -1,6 +1,12 @@
-
+.navbar-toggler:focus {
+  box-shadow: none;
+}
 .circulam-bg{
   background-color: rgb(242, 242, 242);
+}
+.review-bg{
+  background-color: rgb(242, 242, 242);
+
 }
 .cir-head{
   text-align: center;
@@ -67,6 +73,29 @@
   position: relative;
   bottom: 2.2rem;
 }
+.mentor-block{
+  margin-top: 3rem;
+}
+.mentor{
+  width: 18rem;
+}
+.mentor-p1{
+  position: relative;
+  bottom: 0.9rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.review1{
+  width: 10rem;
+}
+.review-person{
+  position: relative;
+  top: 1rem;
+}
+.review-person1{
+  position: relative;
+  bottom: 1rem;
+}
 
 
 @media screen  and (max-width:810px){
@@ -76,5 +105,9 @@
   .circulum-box{
     display: flex;
     flex-direction: column;
+  }
+  .review1{
+    width: 6rem;
+    padding: 5rem 0;
   }
 }
