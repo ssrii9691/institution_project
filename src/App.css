@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
+body {
+  margin: 0 10px;
+  padding: 0;
+}
+.navbar{
+  background-color: white;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navlnk li {
+  font-size: large;
+  font-weight: 500;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.cir-h{
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 2rem;
 }
+.course{
+  font-weight: 500;
+  font-size: 2rem;
+}
+.curriculum-box{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.p1{
+  color: #ff1212;
+  padding-top: 1.4rem;
+  font-size: 20px;
+}
+.p2{
+  color: blue;
+  font-weight: 600;
+  font-size:1.5rem;
+  position: relative;
+  bottom: 0.8rem;
+}
+.p3{
+  position: relative;
+  bottom: 0.5rem;
+}
+.p4{
+  position: relative;
+  bottom: 0.5rem;
+}
+.p5{
+  position: relative;
+  bottom: 1rem;
+  font-size: 1rem;
+}
+.p6{
+  position: relative;
+  bottom: 1.5rem;
+}
+.p7{
+  position: relative;
+  bottom: 2rem;
+}
+.p8{
+  position: relative;
+  bottom: 2rem;
+}
+.p9{
+  position: relative;
+  bottom: 1.5rem;
+}
+.p10{
+  position: relative;
+  bottom: 2rem;
+}
+.mentor-block{
+  margin-top: 2rem;
+}
+.mentor{
+  width: 15rem;
+  border-radius: 250px;
+}
+.mentor-h{
+  font-weight: 500;
+  font-size: 2rem;
+}
+.mentor-p1{
+  position: relative;
+  bottom: 0.6rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.review1{
+  width: 10rem;
+}
+.review-person{
+  position: relative;
+  top: 1rem;
+}
+.review-person1{
+  position: relative;
+  bottom: 1rem;
+}
+.box-m{
+  padding: 10px 10px;
+  width: 25rem;
+  height: 24rem;
+  background-color:rgb(236, 236, 194);
+  border: 5px solid black;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+}
+@media screen and (max-width:800px) {
+  .person{
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .curriculum-box{
+    display: flex;
+    flex-direction: column;
   }
+  .review1{
+    width: 6rem;
+    padding: 5rem 0;
+  }
+ .navbar-toggler{
+   margin-left: 30px;
+  }
+  body{
+    margin: 0.5rem;
+    padding: 0;
+  
+  }
+  .cir-h{
+    text-align: center;
+  }
+  .course{
+    font-size: 19px;
+    text-align: center;
+  }
+  .curriculum{
+    margin-left: 10px;
+  }
+ .box-m{
+  height: 90vh;
+  padding: 1rem;
+  margin: 0rem;
+  justify-content: center;
+  width: 90vw;
+ }
+ .mentor-block{
+  justify-content:start;
+  /* align-items: center; */
+  text-align: center;
+ }
 }
